@@ -1,0 +1,16 @@
+Inventory Management & Sales Reporting
+
+Project purpose:
+A compact SQL solution that demonstrates schema design, data integrity, typical OLTP operations, reporting queries, and a stored procedure — suitable to attach as a sample solution for application forms.
+
+Files included:
+1) solution.sql  - SQL script to create schema, insert sample data, and provide queries, indexes and a stored procedure.
+2) solution_description.txt - Short human-readable description you can paste into forms or upload.
+
+How to use:
+- Run solution.sql in any relational DB (MySQL / MariaDB / PostgreSQL with minor syntax adjustments).
+- The script creates tables: products, customers, orders, order_items.
+- Includes sample inserts, sample reporting queries (daily sales, top products), and a stored procedure `sp_get_monthly_sales` that returns monthly sales totals.
+
+Customize:
+Replace sample data with your own, adjust data types or constraints for your target RDBMS, and add authentication/stored procedures as needed.
