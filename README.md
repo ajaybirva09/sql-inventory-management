@@ -1,19 +1,3 @@
-
----
-
-# 2) PowerShell commands to create README.md and push to GitHub
-
-Open **PowerShell** and `cd` into your repo folder (you said `C:\Users\vijay\GITHUB`):
-
-```powershell
-# go to repo
-cd "C:\Users\vijay\GITHUB"
-
-# remove possible stale lock (only if it exists)
-if (Test-Path .git\index.lock) { Remove-Item .git\index.lock -Force }
-
-# create README.md using a here-string (paste whole README content inside EOF markers)
-@'
 # SQL Inventory Management & Sales
 
 A compact SQL-based Inventory & Sales Management demo.  
